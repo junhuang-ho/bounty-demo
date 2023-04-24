@@ -60,7 +60,7 @@ export const I_SF_CFAV1_NET_FLOW =
 export const ADDRESS_GELATO_FEE = "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE";
 
 export const NETWORK_CONFIG_DEFAULT: NETWORK_CONFIG = {
-  addrApp: "0x464F6e309B8dc57696d1Ad563FaE84DfE54F82A9", // TODO: thsi is TMP !! replace with real one !!!
+  addrApp: "0xBbf19110bf3c536b608877f1E02fDbd3CFaC65A6", // TODO: thsi is TMP !! replace with real one !!!
   addrUSDC: "0x2791bca1f2de4661ed88a30c99a7a9449aa84174",
   addrUSDCx: "0xCAa7349CEA390F89641fe306D93591f87595dc1F",
   addrSFHost: "0x3E14dC1b13c488a8d5D310918780c983bD5982E7",
@@ -74,7 +74,7 @@ export const NETWORK_CONFIG_DEFAULT: NETWORK_CONFIG = {
 export const NETWORK_CONFIGS: { [x: number]: NETWORK_CONFIG } = {
   [polygon.id]: NETWORK_CONFIG_DEFAULT,
   [polygonMumbai.id]: {
-    addrApp: "0x0b24843F4360633ff783173369Fc60D02137ccBa", // 0x87a759C45C65a568e626c9Fd83EFDa046d297828
+    addrApp: "0xBbf19110bf3c536b608877f1E02fDbd3CFaC65A6",
     addrUSDC: "0xbe49ac1EadAc65dccf204D4Df81d650B50122aB2",
     addrUSDCx: "0x42bb40bF79730451B11f6De1CbA222F17b87Afd7",
     addrSFHost: "0xEB796bdb90fFA0f28255275e16936D25d3418603",

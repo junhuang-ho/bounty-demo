@@ -148,6 +148,7 @@ const Bounty: NextPage = () => {
                   >
                     Cancel Bounty
                   </Button>
+                  <Stack sx={{ p: 3 }}></Stack>
                   <TextField
                     fullWidth
                     label="Awardee Address"
